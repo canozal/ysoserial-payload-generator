@@ -10,7 +10,7 @@ This Python script uses the `ysoserial` library to generate serialized payloads 
 
 To use the script, simply run it with the desired gadget and command as arguments, like this:
 
-python3 ysoserial_payload_generator.py -g CommonsCollections1 -c 'rm /home/carlos/morale.txt' -o mypayload.txt
+`python3 ysoserial_payload_generator.py -g CommonsCollections1 -c 'rm /home/carlos/morale.txt' -o mypayload.txt`
 
 This will generate a payload using the `CommonsCollections1` gadget and the `rm /home/carlos/morale.txt` command, URL-encode it, and output it to a file called `mypayload.txt`. If you omit the `-o` option, the payload will be output to a file called `payload.txt`.
 
